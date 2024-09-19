@@ -10,11 +10,6 @@ pygame.init()
 res = (1200, 800)
 screen = pygame.display.set_mode(res)
 
-# Charger et jouer la musique en boucle
-pygame.mixer.music.load('music/other_background_music.mp3') # Lancement du fichier audio
-pygame.mixer.music.set_volume(0.5) # Réglage du Volume
-pygame.mixer.music.play(-1)  # -1 pour jouer en boucle
-
 # Charger les images
 fond = pygame.image.load('images/overwatch2_background.png').convert()
 character_image = pygame.image.load('images/character.png')
